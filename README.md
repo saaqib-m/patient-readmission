@@ -71,6 +71,7 @@ The model includes the following factor groups:
 ---
 ## Limitations
 - **Class imbalance** still poses challenges; despite weighting, the model precision for readmissions remains relatively low.
+- **Initial Features** only a handful of patient features were available, ideally more would be beneficial to train the model.
 - **Feature selection** was limited to top 200 values per category — may miss out useful rare features.
 - **No temporal modeling** — medication timing or dosage amount were not used.
 - **Model simplicity** — logistic regression is interpretable but may underperform compared to tree-based models on complex data.
