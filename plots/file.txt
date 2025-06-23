@@ -1,0 +1,1 @@
+This folder contains plots that are outputted from the logistic regression model.
